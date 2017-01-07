@@ -74,15 +74,11 @@ function getname($text)
             break;
           }
        }
-
-
 else{
   $outstr=$outstr." ".$tmp_str;};
 
   $words_count++;
 }
-
-
 }
   return $outstr;
 }
